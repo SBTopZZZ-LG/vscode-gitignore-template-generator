@@ -1,8 +1,8 @@
-# GitIgnore Generator VSCode Extension
+# GitIgnore Template Generator
 
 VSCode extension that generates .gitignore files directly from your editor. Select multiple templates with autocompletion and instantly apply them - simple, fast and effective.
 
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue.svg)](https://github.com/SBTopZZZ-LG/vscode-gitignoreio)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue.svg)](https://github.com/SBTopZZZ-LG/vscode-gitignore-template-generator)
 
 ## Features
 

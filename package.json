@@ -1,6 +1,6 @@
 {
-  "name": "vscode-gitignoreio",
-  "displayName": "GitIgnore Generator",
+  "name": "vscode-gitignore-template-generator",
+  "displayName": "GitIgnore Template Generator",
   "description": "VSCode extension that generates .gitignore files directly from your editor. Select multiple templates with autocompletion and instantly apply them - simple, fast and effective.",
   "version": "1.0.0",
   "engines": {
@@ -16,7 +16,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "gitignoreio.generate",
+        "command": "vscode-gitignore-template-generator.generate",
         "title": "Generate .gitignore Content"
       }
     ]
@@ -69,9 +69,9 @@
   "publisher": "SaumitraTopinkatti",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SBTopZZZ-LG/vscode-gitignoreio"
+    "url": "https://github.com/SBTopZZZ-LG/vscode-gitignore-template-generator"
   },
-  "homepage": "https://github.com/SBTopZZZ-LG/vscode-gitignoreio",
+  "homepage": "https://github.com/SBTopZZZ-LG/vscode-gitignore-template-generator",
   "license": "ISC",
   "lint-staged": {
     "*.ts": [
