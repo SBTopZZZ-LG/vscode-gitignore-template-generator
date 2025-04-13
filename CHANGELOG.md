@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/SBTopZZZ-LG/vscode-gitignore-template-generator/compare/v1.0.0...v1.1.0) (2025-04-13)
+
+
+### Features
+
+* rename extension to GitIgnore Template Generator ([7041c68](https://github.com/SBTopZZZ-LG/vscode-gitignore-template-generator/commit/7041c68045cdbf4b540c3c04c12130cf516c77cb))
+
 # 1.0.0 (2025-04-13)
 
 
