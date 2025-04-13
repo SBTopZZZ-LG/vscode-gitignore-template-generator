@@ -3,6 +3,12 @@ name: Publish Extension
 on:
   release:
     types: [created]
+  workflow_dispatch:
+    inputs:
+      releaseNotes:
+        description: 'Release notes'
+        required: false
+        default: 'Manual publish from workflow dispatch'
 
 jobs:
   publish:
