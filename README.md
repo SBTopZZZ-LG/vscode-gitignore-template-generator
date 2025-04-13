@@ -4,6 +4,8 @@ VSCode extension that generates .gitignore files directly from your editor. Sele
 
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue.svg)](https://github.com/SBTopZZZ-LG/vscode-gitignore-template-generator)
 
+![Usage Preview](https://github.com/SBTopZZZ-LG/vscode-gitignore-template-generator/raw/main/media/vscode-gitignore-template-generator.gif)
+
 ## Features
 
 - Automatically detects when a .gitignore file is opened
