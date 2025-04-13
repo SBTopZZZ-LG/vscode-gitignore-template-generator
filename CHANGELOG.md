@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/SBTopZZZ-LG/vscode-gitignore-template-generator/compare/v1.1.0...v1.1.1) (2025-04-13)
+
+
+### Bug Fixes
+
+* enable version updates in package.json during release ([01882f8](https://github.com/SBTopZZZ-LG/vscode-gitignore-template-generator/commit/01882f808b717ae259664c299ec804abb3075493))
+
 # [1.1.0](https://github.com/SBTopZZZ-LG/vscode-gitignore-template-generator/compare/v1.0.0...v1.1.0) (2025-04-13)
 
 
