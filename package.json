@@ -1,0 +1,81 @@
+{
+  "name": "vscode-gitignoreio",
+  "displayName": "GitIgnore Generator",
+  "description": "VSCode extension that generates .gitignore files directly from your editor. Select multiple templates with autocompletion and instantly apply them - simple, fast and effective.",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:ignore"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "gitignoreio.generate",
+        "title": "Generate .gitignore Content"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src --ext ts",
+    "lint:fix": "eslint src --ext ts --fix",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "check-format": "prettier --check \"src/**/*.ts\"",
+    "prepare": "husky",
+    "lint-staged": "lint-staged",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:major": "standard-version --release-as major",
+    "release:patch": "standard-version --release-as patch",
+    "semantic-release": "semantic-release",
+    "test": "npm run test:unit && npm run test:integration",
+    "test:unit": "echo \"No unit tests yet\" && exit 0",
+    "test:integration": "echo \"No integration tests yet\" && exit 0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@types/node": "^16.11.7",
+    "@types/vscode": "^1.60.0",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-prettier": "^5.2.6",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.1",
+    "prettier": "^3.5.3",
+    "semantic-release": "^24.2.3",
+    "standard-version": "^9.5.0",
+    "typescript": "^4.8.4"
+  },
+  "keywords": [
+    "vscode",
+    "extension",
+    "gitignore",
+    "generator"
+  ],
+  "author": "SBTopZZZ-LG",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SBTopZZZ-LG/vscode-gitignoreio"
+  },
+  "homepage": "https://github.com/SBTopZZZ-LG/vscode-gitignoreio",
+  "license": "ISC",
+  "lint-staged": {
+    "*.ts": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  }
+}

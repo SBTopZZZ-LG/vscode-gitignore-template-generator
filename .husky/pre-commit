@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+# This pre-commit hook will run the lint-staged command to lint and format staged files
+npm run lint-staged

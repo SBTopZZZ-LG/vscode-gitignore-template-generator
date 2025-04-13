@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+# This commit-msg hook will check that commit messages follow the conventional commits specification
+npx --no -- commitlint --edit "$1"
